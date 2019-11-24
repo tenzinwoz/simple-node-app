@@ -1,0 +1,19 @@
+html
+  head
+    title= title
+  body
+    h1=users
+    <table>
+      <thead>
+        <tr>
+          <th> ID
+          <th> Name
+          <th> Email
+          <th> Mobile
+      each item in items
+        <tr>
+          td=item.id
+          td=item.name
+          td=item.email
+          td=item.mobile
+    
